@@ -1,11 +1,9 @@
 def slice_advanced():
     # Código a implementar utilizando input.
-    Texto = "awesome"
-    texto = Texto.lower()
-    mitad = int(len(texto)/2)
-
-    print(texto[0:3])
-    print(texto[ mitad-1: mitad + 2])
-    print(f'{texto[0:4]}{texto[-3:]}')
+    texto = input()
+    print(f'{texto}')
+    print(f'{texto[4::2]} \n')
+     texto2 = input()
+    print(f' {texto2[4::2]}')
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
