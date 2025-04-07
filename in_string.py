@@ -6,7 +6,7 @@ def check_vowels():
     print(f'Contiene e: {"e" in nombre}')
     print(f'Contiene i: {"i" in nombre}')
     print(f'Contiene o: {"o" in nombre}')
-    print(f'Contiene u: {"u" in nombre} \n')
+    print(f'Contiene u: {"u" in nombre}\n')
     Nombre2 = input()
     nombre2 = Nombre2.lower()
     print(f'Contiene a: {"a" in nombre2}')
